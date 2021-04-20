@@ -1,5 +1,5 @@
 # sistemasDigitales
 
 ###Team
-Jonathan Rafael López Contreras
-José Jaime Gutiérrez Martínez
+- Jonathan Rafael López Contreras
+- José Jaime Gutiérrez Martínez
