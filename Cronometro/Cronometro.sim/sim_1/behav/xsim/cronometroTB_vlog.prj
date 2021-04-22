@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Cronometro.srcs/sources_1/new/7seg.v" \
+"../../../../Cronometro.srcs/sources_1/new/clocks.v" \
+"../../../../Cronometro.srcs/sources_1/new/contador.v" \
+"../../../../Cronometro.srcs/sources_1/new/cronometro.v" \
+"../../../../Cronometro.srcs/sources_1/new/enable.v" \
+"../../../../Cronometro.srcs/sim_1/new/cronometroTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

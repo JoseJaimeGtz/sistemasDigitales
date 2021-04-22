@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/sistemasDigitales/Cronometro/Cronometro.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/sistemasDigitales/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v,1619071010,verilog,,,,cronometroTB,,,,,,,,
+C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/7seg.v,1619064811,verilog,,C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/clocks.v,,sieteseg,,,,,,,,
+C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/clocks.v,1619064811,verilog,,C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/contador.v,,clocks,,,,,,,,
+C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/contador.v,1619064811,verilog,,C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v,,contador,,,,,,,,
+C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v,1619071388,verilog,,C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/enable.v,,cronometro,,,,,,,,
+C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/enable.v,1619064811,verilog,,C:/sistemasDigitales/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v,,enable,,,,,,,,

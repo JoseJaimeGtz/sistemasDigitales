@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 
 module contador(
-input button_n,
-input reset_n,
-input clk_point1hz,
-output reg [3:0] reg_d0,
-output reg [3:0] reg_d1,
-output reg [3:0] reg_d2,
-output reg [3:0] reg_d3
-    );
+    input button_n,
+    input reset_n,
+    input clk_point1hz,
+    output reg [3:0] reg_d0,
+    output reg [3:0] reg_d1,
+    output reg [3:0] reg_d2,
+    output reg [3:0] reg_d3
+);
 
 reg button_n_ff;
 reg start_stop;

@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=E:/Xilinx/SDK/2019.1/bin;E:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;E:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:E:/Xilinx/Vivado/2019.1/bin
+  PATH=C:/Xilinx/SDK/2019.1/bin;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.1/bin
 else
-  PATH=E:/Xilinx/SDK/2019.1/bin;E:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;E:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:E:/Xilinx/Vivado/2019.1/bin:$PATH
+  PATH=C:/Xilinx/SDK/2019.1/bin;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/impl_1'
+HD_PWD='C:/sistemasDigitales/Cronometro/Cronometro.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
-EAStep vivado -log conometro.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source conometro.tcl -notrace
+/bin/touch .write_bitstream.begin.rst
+EAStep vivado -log cronometro.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source cronometro.tcl -notrace
 
 

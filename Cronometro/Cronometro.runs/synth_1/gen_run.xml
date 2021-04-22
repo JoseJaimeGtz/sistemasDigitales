@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1618943004">
-  <File Type="PA-TCL" Name="conometro.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="conometro_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="conometro_reports.tcl"/>
-  <File Type="RDS-RDS" Name="conometro.vds"/>
-  <File Type="RDS-UTIL" Name="conometro_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="conometro_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="conometro.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="conometro_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="conometro_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619072302">
+  <File Type="PA-TCL" Name="cronometro.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="cronometro_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="cronometro_reports.tcl"/>
+  <File Type="RDS-RDS" Name="cronometro.vds"/>
+  <File Type="RDS-UTIL" Name="cronometro_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="cronometro_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="cronometro.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="cronometro_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="cronometro_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/7seg.v">
@@ -48,7 +48,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="conometro"/>
+      <Option Name="TopModule" Val="cronometro"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
