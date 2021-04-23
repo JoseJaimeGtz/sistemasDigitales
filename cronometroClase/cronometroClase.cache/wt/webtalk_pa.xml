@@ -3,7 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
+<<<<<<< HEAD
 <application name="pa" timeStamp="Thu Apr 22 16:44:37 2021">
+=======
+<application name="pa" timeStamp="Thu Apr 22 13:02:47 2021">
+>>>>>>> main
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="1689abe8d4d94a038243e4f8c412c023" type="ProjectID"/>
 <property name="ProjectIteration" value="4" type="ProjectIteration"/>
@@ -32,9 +36,14 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES" value="1" type="GuiHandlerData"/>
 <property name="BaseDialog_OK" value="12" type="GuiHandlerData"/>
 <property name="BoardChooser_BOARD_TABLE" value="1" type="GuiHandlerData"/>
+<<<<<<< HEAD
 <property name="CmdMsgDialog_OK" value="1" type="GuiHandlerData"/>
 <property name="CreateSrcFileDialog_FILE_NAME" value="5" type="GuiHandlerData"/>
 <property name="FileSetPanel_FILE_SET_PANEL_TREE" value="39" type="GuiHandlerData"/>
+=======
+<property name="CreateSrcFileDialog_FILE_NAME" value="5" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="34" type="GuiHandlerData"/>
+>>>>>>> main
 <property name="FileSetPanel_MESSAGES" value="1" type="GuiHandlerData"/>
 <property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="7" type="GuiHandlerData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
@@ -55,9 +64,15 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SrcChooserPanel_CREATE_FILE" value="5" type="GuiHandlerData"/>
 </item>
 <item name="Other">
+<<<<<<< HEAD
 <property name="GuiMode" value="64" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
 <property name="TclMode" value="53" type="TclMode"/>
+=======
+<property name="GuiMode" value="33" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="28" type="TclMode"/>
+>>>>>>> main
 </item>
 </section>
 </application>
