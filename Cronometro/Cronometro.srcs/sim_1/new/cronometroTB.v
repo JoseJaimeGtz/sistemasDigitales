@@ -1,22 +1,22 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Company:
+// Engineer:
+//
 // Create Date: 04/22/2021 12:10:42 AM
-// Design Name: 
+// Design Name:
 // Module Name: cronometroTB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Project Name:
+// Target Devices:
+// Tool Versions:
+// Description:
+//
+// Dependencies:
+//
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// 
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -30,7 +30,7 @@ module cronometroTB();
     wire enable_D3;
     wire enable_D4;
     wire dp;
-    
+
     cronometro DUT (
         .clk(clk),
         .button_n(button_n),
@@ -42,32 +42,42 @@ module cronometroTB();
         .enable_D4(enable_D4),
         .dp(dp)
     );
-    
+
     always begin
         #1 clk = ~clk;
     end
-    
+
     initial begin
         clk = 0;
         button_n = 0;
         reset_n = 0;
-        #300
-        
+
+        #50
         button_n = 1;
-        #300
-        
+
+        #50
         button_n = 0;
-        #300
-        
-        button_n = 1;
-        #300
-        
+
+        #50
         reset_n = 1;
-        #300
-        
+
+        #50
+        reset_n = 0;
+
+        #50
+        button_n = 1;
+        reset_n = 1;
+
+        #50
         button_n = 0;
-        
-        #2000
+        reset_n = 0;
+
+        #50
+        button_n = 1;
+
+        #50
+        button_n = 0;
+        #2000000
         $stop;
     end
 

@@ -2,22 +2,125 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Apr 20 13:22:09 2021
-# Process ID: 11364
-# Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22144 D:\OneDrive - ITESO\- Semestre 4\Fundamentos de Sistemas Digitales\Practica 3\sistemasDigitales\Cronometro\Cronometro.xpr
-# Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/vivado.log
-# Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro\vivado.jou
+# Start of session at: Fri Apr 23 08:50:02 2021
+# Process ID: 11740
+# Current directory: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28004 C:\Users\Jonathan\Downloads\sistemasDigitales-main\Cronometro\Cronometro.xpr
+# Log file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/vivado.log
+# Journal file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.xpr}
+open_project C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source cronometroTB.tcl
+close_sim
+launch_simulation
+source cronometroTB.tcl
+current_wave_config {Untitled 2}
+add_wave {{/cronometroTB/DUT/contadorU}} 
+save_wave_config {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+set_property xsim.view C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1
 open_hw
 connect_hw_server
 open_hw_target
-set_property PROGRAM.FILE {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/impl_1/conometro.bit} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
 current_hw_device [get_hw_devices xc7a35t_0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+save_wave_config {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+close_sim

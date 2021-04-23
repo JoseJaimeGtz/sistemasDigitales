@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Thu Apr 22 01:19:52 2021
-| Host         : DESKTOP-0QELL5I running 64-bit major release  (build 9200)
+| Date         : Fri Apr 23 10:04:03 2021
+| Host         : DESKTOP-REPUBLIC running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file cronometro_control_sets_placed.rpt
 | Design       : cronometro
 | Device       : xc7a35t
@@ -63,25 +63,25 @@ Table of Contents
 | No           | Yes                   | No                     |              33 |            9 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              16 |            5 |
+| Yes          | Yes                   | No                     |              16 |            4 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+-------------------------------+----------------------------------+---------------------------------+------------------+----------------+
-|          Clock Signal         |           Enable Signal          |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
-+-------------------------------+----------------------------------+---------------------------------+------------------+----------------+
-|  nolabel_line42/clk_100mhz    |                                  |                                 |                2 |              2 |
-|  nolabel_line42/CLK           |                                  |                                 |                1 |              4 |
-|  nolabel_line42/tmp_clk_reg_0 |                                  |                                 |                1 |              4 |
-|  nolabel_line42/tmp_clk_reg_0 | nolabel_line57/reg_d2[3]_i_1_n_0 | nolabel_line57/reg_d00          |                2 |              4 |
-|  nolabel_line42/tmp_clk_reg_0 | nolabel_line57/reg_d1[3]_i_1_n_0 | nolabel_line57/reg_d00          |                1 |              4 |
-|  nolabel_line42/tmp_clk_reg_0 | nolabel_line57/reg_d3[3]_i_1_n_0 | nolabel_line57/reg_d00          |                1 |              4 |
-|  nolabel_line42/tmp_clk_reg_0 | nolabel_line57/reg_d0[3]_i_2_n_0 | nolabel_line57/reg_d00          |                1 |              4 |
-|  nolabel_line42/clk_100mhz    |                                  | nolabel_line42/clear            |                4 |             14 |
-|  nolabel_line42/clk_100mhz    |                                  | nolabel_line42/count[0]_i_1_n_0 |                5 |             19 |
-+-------------------------------+----------------------------------+---------------------------------+------------------+----------------+
++------------------------+-----------------------------+--------------------------+------------------+----------------+
+|      Clock Signal      |        Enable Signal        |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++------------------------+-----------------------------+--------------------------+------------------+----------------+
+|  clk_IBUF_BUFG         |                             |                          |                2 |              2 |
+|  clocksU/CLK           |                             |                          |                1 |              4 |
+|  clocksU/tmp_clk_reg_0 |                             |                          |                1 |              4 |
+|  clocksU/tmp_clk_reg_0 | contadorU/reg_d0[3]_i_2_n_0 | contadorU/reg_d00        |                1 |              4 |
+|  clocksU/tmp_clk_reg_0 | contadorU/reg_d1[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
+|  clocksU/tmp_clk_reg_0 | contadorU/reg_d2[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
+|  clocksU/tmp_clk_reg_0 | contadorU/reg_d3[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
+|  clk_IBUF_BUFG         |                             | clocksU/clear            |                4 |             14 |
+|  clk_IBUF_BUFG         |                             | clocksU/count[0]_i_1_n_0 |                5 |             19 |
++------------------------+-----------------------------+--------------------------+------------------+----------------+
 
 

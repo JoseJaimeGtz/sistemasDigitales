@@ -2,31 +2,308 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Apr 20 13:22:09 2021
-# Process ID: 11364
-# Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22144 D:\OneDrive - ITESO\- Semestre 4\Fundamentos de Sistemas Digitales\Practica 3\sistemasDigitales\Cronometro\Cronometro.xpr
-# Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/vivado.log
-# Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro\vivado.jou
+# Start of session at: Fri Apr 23 08:50:02 2021
+# Process ID: 11740
+# Current directory: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28004 C:\Users\Jonathan\Downloads\sistemasDigitales-main\Cronometro\Cronometro.xpr
+# Log file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/vivado.log
+# Journal file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.xpr}
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro'
-INFO: [Project 1-313] Project file moved from 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/Cronometro' since last save.
+open_project C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.xpr
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
-open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 811.801 ; gain = 119.402
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 777.605 ; gain = 135.348
 update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 843.898 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 888.648 ; gain = 44.750
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1185.168 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/cronometroTB/DUT/contadorU}} 
+save_wave_config {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+set_property xsim.view C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1185.168 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1185.168 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1185.168 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1185.168 ; gain = 0.000
 reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
 launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Tue Apr 20 13:23:24 2021] Launched synth_1...
-Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/synth_1/runme.log
-[Tue Apr 20 13:23:24 2021] Launched impl_1...
-Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/impl_1/runme.log
+[Fri Apr 23 09:02:13 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+[Fri Apr 23 09:02:13 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/runme.log
 open_hw
 connect_hw_server
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
@@ -38,9 +315,612 @@ INFO: [Labtools 27-2221] Launch Output:
     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 
 
-connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 904.906 ; gain = 14.648
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1185.168 ; gain = 0.000
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF2DD1A
-set_property PROGRAM.FILE {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/impl_1/conometro.bit} [get_hw_devices xc7a35t_0]
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2160.938 ; gain = 975.770
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
 current_hw_device [get_hw_devices xc7a35t_0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Apr 23 09:09:53 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+[Fri Apr 23 09:09:53 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2192.898 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF2DD1A
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Apr 23 09:14:50 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+[Fri Apr 23 09:14:50 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Apr 23 09:18:28 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+[Fri Apr 23 09:18:28 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Apr 23 09:21:46 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+[Fri Apr 23 09:21:46 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Apr 23 09:25:06 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+[Fri Apr 23 09:25:06 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 59.238
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2352.480 ; gain = 59.238
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2352.480 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2352.480 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2352.480 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Fri Apr 23 09:32:57 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2352.480 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2352.480 ; gain = 0.000
+save_wave_config {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cronometroTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cronometroTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sieteseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clocks
+INFO: [VRFC 10-2458] undeclared symbol clk_100mhz, assumed default net type wire [C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/clocks.v:19]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/contador.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contador
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometro
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sources_1/new/enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.srcs/sim_1/new/cronometroTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cronometroTB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+"xelab -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cronometroTB_behav -key {Behavioral:sim_1:Functional:cronometroTB} -tclbatch {cronometroTB.tcl} -view {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/cronometroTB_behav.wcfg
+source cronometroTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2352.480 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cronometroTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2352.480 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 23 09:36:04 2021...

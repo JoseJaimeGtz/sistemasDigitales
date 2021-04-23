@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cronometroTB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cronometroTB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="36402236fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="176"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/cronometroTB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/button_n" type="logic">
+      <obj_property name="ElementShortName">button_n</obj_property>
+      <obj_property name="ObjectShortName">button_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/segment" type="array">
+      <obj_property name="ElementShortName">segment[6:0]</obj_property>
+      <obj_property name="ObjectShortName">segment[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/enable_D1" type="logic">
+      <obj_property name="ElementShortName">enable_D1</obj_property>
+      <obj_property name="ObjectShortName">enable_D1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/enable_D2" type="logic">
+      <obj_property name="ElementShortName">enable_D2</obj_property>
+      <obj_property name="ObjectShortName">enable_D2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/enable_D3" type="logic">
+      <obj_property name="ElementShortName">enable_D3</obj_property>
+      <obj_property name="ObjectShortName">enable_D3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/enable_D4" type="logic">
+      <obj_property name="ElementShortName">enable_D4</obj_property>
+      <obj_property name="ObjectShortName">enable_D4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/button_n" type="logic">
+      <obj_property name="ElementShortName">button_n</obj_property>
+      <obj_property name="ObjectShortName">button_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/clk_point1hz" type="logic">
+      <obj_property name="ElementShortName">clk_point1hz</obj_property>
+      <obj_property name="ObjectShortName">clk_point1hz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reg_d0" type="array">
+      <obj_property name="ElementShortName">reg_d0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_d0[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reg_d1" type="array">
+      <obj_property name="ElementShortName">reg_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_d1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reg_d2" type="array">
+      <obj_property name="ElementShortName">reg_d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_d2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reg_d3" type="array">
+      <obj_property name="ElementShortName">reg_d3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_d3[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/button_n_ff" type="logic">
+      <obj_property name="ElementShortName">button_n_ff</obj_property>
+      <obj_property name="ObjectShortName">button_n_ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/start_stop" type="logic">
+      <obj_property name="ElementShortName">start_stop</obj_property>
+      <obj_property name="ObjectShortName">start_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reset_n_ff" type="logic">
+      <obj_property name="ElementShortName">reset_n_ff</obj_property>
+      <obj_property name="ObjectShortName">reset_n_ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometroTB/DUT/contadorU/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../cronometroClase.srcs/sources_1/new/countCompare.v" \
+"../../../../cronometroClase.srcs/sources_1/new/cronometro.v" \
+"../../../../cronometroClase.srcs/sources_1/imports/new/ffT.v" \
+"../../../../cronometroClase.srcs/sources_1/new/sweep4disp7seg.v" \
+"../../../../cronometroClase.srcs/sim_1/new/cronometroTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 22 16:55:40 2021
+# Process ID: 11200
+# Current directory: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23956 C:\Users\Jonathan\Downloads\sistemasDigitales-main\Cronometro\Cronometro.xpr
+# Log file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/vivado.log
+# Journal file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1/cronometro.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+launch_simulation
+source cronometroTB.tcl
+close_sim

@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 
 module clocks(
-    input clk,  
-    output refreshClk,  
-    output clk_point1hz 
+    input clk,
+    output refreshClk,
+    output clk_point1hz
 );
 
-reg [26:0] count = 0;  
-reg [16:0] refresh = 0; 
+reg [26:0] count = 0;
+reg [16:0] refresh = 0;
 
 reg tmp_clk = 0;
 reg rclk = 0;
@@ -15,17 +15,17 @@ reg rclk = 0;
 assign clk_point1hz = tmp_clk;
 assign refreshClk = rclk;
 
-BUFG clock_buf_0( 
-  .I(clk),
-  .O(clk_100mhz)
+buf clock_buf_0(
+  clk_100mhz,
+  clk
 );
 
-always @(posedge clk_100mhz) begin 
-  if (count < 50_0000) begin
+always @(posedge clk_100mhz) begin
+  if (count < 500_000) begin  //5 TestBench 500_000 para Basys
     count <= count + 1;
   end
   else begin
-    tmp_clk <= ~tmp_clk; 
+    tmp_clk <= ~tmp_clk;
     count <= 0;
   end
 end

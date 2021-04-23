@@ -1,10 +1,17 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 806ec4a7f27f4a009e0da14de342c1c2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v:42]
-ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v:48]
-ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v:57]
-ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/sistemasDigitales/Cronometro/Cronometro.srcs/sources_1/new/cronometro.v:67]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clocks
+Compiling module xil_defaultlib.enable
+Compiling module xil_defaultlib.contador
+Compiling module xil_defaultlib.sieteseg
+Compiling module xil_defaultlib.cronometro
+Compiling module xil_defaultlib.cronometroTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cronometroTB_behav
