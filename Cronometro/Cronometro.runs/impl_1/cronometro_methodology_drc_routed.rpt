@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Fri Apr 23 10:04:27 2021
-| Host         : DESKTOP-REPUBLIC running 64-bit major release  (build 9200)
+| Date         : Fri Apr 23 18:38:12 2021
+| Host         : DESKTOP-0QELL5I running 64-bit major release  (build 9200)
 | Command      : report_methodology -file cronometro_methodology_drc_routed.rpt -pb cronometro_methodology_drc_routed.pb -rpx cronometro_methodology_drc_routed.rpx
 | Design       : cronometro
 | Device       : xc7a35tcpg236-1
