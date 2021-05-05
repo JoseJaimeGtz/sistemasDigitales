@@ -1,0 +1,260 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 28 11:34:09 2021
+# Process ID: 20044
+# Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25440 D:\OneDrive - ITESO\- Semestre 4\Fundamentos-de-Sistemas-Digitales-Vivado\Morse\Morse.xpr
+# Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/vivado.log
+# Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/Morse.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 793.980 ; gain = 147.531
+update_compile_order -fileset sources_1
+create_project LEDs {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs} -part xc7a35ticpg236-1L
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Top.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Top.v}}
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Top.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Top.v}}
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}
+add_files -norecurse {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v} {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}
+update_compile_order -fileset sources_1
+close_project
+create_project LEDs {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs} -part xc7a35ticpg236-1L
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new
+file mkdir {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/OSecond.v}}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/HSecond.v}}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Leds.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Leds.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project LEDs
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/SumadorRestadorNBits/SumadorRestadorNBits.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/SumadorRestadorNBits'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Sumador4bits/Sumador4bits.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Sumador4bits'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reorder_files -fileset constrs_1 -after {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Sumador4bits/Basys-3-Master.xdc} {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Sumador4bits/Basys-3-Master.xdc}}
+current_project LEDs
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new
+file mkdir D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1
+file mkdir {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new}
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new/Basys3.xdc} w ]
+add_files -fileset constrs_1 {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/constrs_1/new/Basys3.xdc}}
+current_project Cronometro
+current_project LEDs
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:30:34 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:30:34 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+current_project Cronometro
+current_project LEDs
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:33:29 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:33:29 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:34:28 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:34:28 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+current_project Sumador4bits
+close_project
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Apagador Escalera/Apagador Escalera.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Apagador Escalera'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project LEDs
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:37:53 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:37:53 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:42:14 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:42:14 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:43:35 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:43:35 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 12:48:18 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 12:48:18 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+close [ open {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Clocks.v} w ]
+add_files {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.srcs/sources_1/new/Clocks.v}}
+update_compile_order -fileset sources_1
+current_project Cronometro
+current_project LEDs
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 13:27:31 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 13:27:31 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 13:30:23 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 13:30:23 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 13:37:45 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 13:37:45 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 13:42:37 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 13:42:37 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Apr 28 14:10:22 2021] Launched synth_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/synth_1/runme.log
+[Wed Apr 28 14:10:22 2021] Launched impl_1...
+Run output will be captured here: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/LEDs/LEDs.runs/impl_1/runme.log
+close_project
+current_project Cronometro
+close_project
+current_project Morse
+close_project
+close_project
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 28 17:33:13 2021...

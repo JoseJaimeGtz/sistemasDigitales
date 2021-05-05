@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 30 11:42:49 2021
+# Process ID: 27624
+# Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22088 D:\OneDrive - ITESO\- Semestre 4\Fundamentos-de-Sistemas-Digitales-Vivado\Morse\Morse.xpr
+# Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/vivado.log
+# Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/Morse.xpr}
+add_files -norecurse {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/Morse.srcs/sources_1/new/HSecond.v} {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/Morse.srcs/sources_1/new/Morse.v} {D:/OneDrive - ITESO/- Semestre 4/Fundamentos-de-Sistemas-Digitales-Vivado/Morse/Morse.srcs/sources_1/new/OSecond.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
