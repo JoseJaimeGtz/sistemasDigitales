@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Fri Apr 23 10:04:28 2021
+| Date             : Wed Apr 28 09:35:34 2021
 | Host             : DESKTOP-REPUBLIC running 64-bit major release  (build 9200)
 | Command          : report_power -file cronometro_power_routed.rpt -pb cronometro_power_summary_routed.pb -rpx cronometro_power_routed.rpx
 | Design           : cronometro

@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri Apr 23 10:02:41 2021
-# Process ID: 22708
-# Current directory: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1
+# Start of session at: Wed Apr 28 09:25:56 2021
+# Process ID: 26840
+# Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/synth_1
 # Command line: vivado.exe -log cronometro.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cronometro.tcl
-# Log file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1/cronometro.vds
-# Journal file: C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/synth_1\vivado.jou
+# Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/synth_1/cronometro.vds
+# Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source cronometro.tcl -notrace

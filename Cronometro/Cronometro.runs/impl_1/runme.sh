@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Jonathan/Downloads/sistemasDigitales-main/Cronometro/Cronometro.runs/impl_1'
+HD_PWD='D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/Practica 3/sistemasDigitales/Cronometro/Cronometro.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
