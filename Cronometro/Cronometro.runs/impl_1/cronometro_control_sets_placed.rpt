@@ -1,8 +1,13 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+<<<<<<< HEAD
 | Date         : Wed Apr 28 09:34:27 2021
 | Host         : DESKTOP-REPUBLIC running 64-bit major release  (build 9200)
+=======
+| Date         : Fri Apr 23 18:37:44 2021
+| Host         : DESKTOP-0QELL5I running 64-bit major release  (build 9200)
+>>>>>>> main
 | Command      : report_control_sets -verbose -file cronometro_control_sets_placed.rpt
 | Design       : cronometro
 | Device       : xc7a35t
@@ -76,8 +81,13 @@ Table of Contents
 |  clk_IBUF_BUFG         |                             |                          |                2 |              2 |
 |  clocksU/CLK           |                             |                          |                1 |              4 |
 |  clocksU/tmp_clk_reg_0 |                             |                          |                1 |              4 |
+<<<<<<< HEAD
 |  clocksU/tmp_clk_reg_0 | contadorU/reg_d2[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
 |  clocksU/tmp_clk_reg_0 | contadorU/reg_d3[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
+=======
+|  clocksU/tmp_clk_reg_0 | contadorU/reg_d3[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
+|  clocksU/tmp_clk_reg_0 | contadorU/reg_d2[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
+>>>>>>> main
 |  clocksU/tmp_clk_reg_0 | contadorU/reg_d1[3]_i_1_n_0 | contadorU/reg_d00        |                1 |              4 |
 |  clocksU/tmp_clk_reg_0 | contadorU/reg_d0[3]_i_2_n_0 | contadorU/reg_d00        |                1 |              4 |
 |  clk_IBUF_BUFG         |                             | clocksU/clear            |                4 |             14 |

@@ -62,6 +62,7 @@ proc step_failed { step } {
 
 set_msg_config -id {Common 17-41} -limit 10000000
 
+<<<<<<< HEAD
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
@@ -151,10 +152,15 @@ if {$rc} {
   unset ACTIVE_STEP 
 }
 
+=======
+>>>>>>> main
 start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param chipscope.maxJobs 1
+  open_checkpoint cronometro_routed.dcp
+  set_property webtalk.parent_dir C:/sistemasDigitales/Cronometro/Cronometro.cache/wt [current_project]
   catch { write_mem_info -force cronometro.mmi }
   write_bitstream -force cronometro.bit 
   catch {write_debug_probes -quiet -force cronometro}

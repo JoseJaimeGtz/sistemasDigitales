@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619619938">
+=======
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619220972">
+>>>>>>> main
   <File Type="PA-TCL" Name="cronometro.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="cronometro_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="cronometro_reports.tcl"/>

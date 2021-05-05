@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619619941">
+=======
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619221022">
+>>>>>>> main
   <File Type="BITSTR-BMM" Name="cronometro_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="cronometro_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="cronometro_timing_summary_init.rpt"/>
