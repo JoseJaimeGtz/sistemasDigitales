@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Wed May  5 11:59:11 2021
-| Host         : DESKTOP-REPUBLIC running 64-bit major release  (build 9200)
+| Date         : Thu May  6 01:38:36 2021
+| Host         : DESKTOP-0QELL5I running 64-bit major release  (build 9200)
 | Command      : report_utilization -file morse_encoder_utilization_synth.rpt -pb morse_encoder_utilization_synth.pb
 | Design       : morse_encoder
 | Device       : 7a35ticpg236-1L

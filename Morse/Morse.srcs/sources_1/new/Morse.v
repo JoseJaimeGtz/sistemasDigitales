@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module morse_encoder(
-input [0:7] sw,
+input [0:7] sw, // 8bit vector
 output reg [0:3] count,
 output reg [0:5] led
     );
@@ -226,5 +226,8 @@ output reg [0:5] led
             count=1;
             led[0:5]=6'b000000;
         end
-    end    
+    end  
+    
 endmodule
+
+
