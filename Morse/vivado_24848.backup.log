@@ -2,10 +2,10 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Wed May 12 09:36:43 2021
-# Process ID: 18904
+# Start of session at: Tue May 11 11:21:25 2021
+# Process ID: 24848
 # Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5728 D:\OneDrive - ITESO\- Semestre 4\Fundamentos de Sistemas Digitales\sistemasDigitales\Morse\Morse.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32196 D:\OneDrive - ITESO\- Semestre 4\Fundamentos de Sistemas Digitales\sistemasDigitales\Morse\Morse.xpr
 # Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse/vivado.log
 # Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse\vivado.jou
 #-----------------------------------------------------------
@@ -20,7 +20,7 @@ INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'D:/One
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
-open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1047.367 ; gain = 135.555
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1054.191 ; gain = 149.387
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed May 12 09:37:33 2021...
+INFO: [Common 17-206] Exiting Vivado at Tue May 11 12:07:41 2021...

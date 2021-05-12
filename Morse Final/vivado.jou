@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May 12 09:38:15 2021
+# Process ID: 29964
+# Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12300 D:\OneDrive - ITESO\- Semestre 4\Fundamentos de Sistemas Digitales\sistemasDigitales\Morse Final\morse_code_encoder.xpr
+# Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/vivado.log
+# Journal file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.xpr}
+update_compile_order -fileset sources_1
