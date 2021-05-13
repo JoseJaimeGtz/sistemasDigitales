@@ -60,21 +60,23 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 4
+  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a35tcpg236-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.xpr [current_project]
-  set_property ip_output_repo C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.cache/ip [current_project]
+  set_property webtalk.parent_dir {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.cache/wt} [current_project]
+  set_property parent.project_path {D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.xpr} [current_project]
+  set_property ip_output_repo {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.runs/synth_1/uartRXBasys3.dcp
-  read_xdc C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.srcs/constrs_1/new/PINS.xdc
+  add_files -quiet {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.runs/synth_1/uartRXBasys3.dcp}}
+  read_xdc {{D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.srcs/constrs_1/new/PINS.xdc}}
   link_design -top uartRXBasys3 -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]

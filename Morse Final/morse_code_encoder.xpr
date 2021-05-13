@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.xpr">
+<Project Version="7" Minor="40" Path="D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="21372c070b684f1caa6edcc9c38f2622"/>

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.srcs/constrs_1/new/PINS.xdc rfile:../../../morse_code_encoder.srcs/constrs_1/new/PINS.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.srcs/constrs_1/new/PINS.xdc} rfile:../../../morse_code_encoder.srcs/constrs_1/new/PINS.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:48 export:INPUT save:INPUT read:READ} [current_design]

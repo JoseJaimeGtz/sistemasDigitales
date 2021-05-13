@@ -36,7 +36,7 @@ module uartRXBasys3
   input clk;
   input btnD;
   input RsRx;
-  output reg [3:0] an;
+  output [3:0] an;
   output wire [15:0] led;
   output wire [6:0] count;
 
@@ -84,6 +84,7 @@ module uartRXBasys3
     count,
     led
     );
-  
+    
+  assign an = 4'b1110;
 
 endmodule

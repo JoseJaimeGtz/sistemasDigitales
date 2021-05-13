@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Jonathan/Downloads/Vivado2018.2_project_file/morse_code_encoder/morse_code_encoder.runs/impl_1'
+HD_PWD='D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
