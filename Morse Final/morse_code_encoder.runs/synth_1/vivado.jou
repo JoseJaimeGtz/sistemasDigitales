@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu May 13 13:10:55 2021
-# Process ID: 29492
+# Start of session at: Thu May 13 21:03:09 2021
+# Process ID: 30308
 # Current directory: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.runs/synth_1
 # Command line: vivado.exe -log uartRXBasys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uartRXBasys3.tcl
 # Log file: D:/OneDrive - ITESO/- Semestre 4/Fundamentos de Sistemas Digitales/sistemasDigitales/Morse Final/morse_code_encoder.runs/synth_1/uartRXBasys3.vds

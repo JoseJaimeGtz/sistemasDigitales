@@ -52,32 +52,6 @@ module uartRXBasys3
     .done (led[0]),
     .busy (led[1])
   );
-
-  wire equal2ms;
-  reg [1:0] selDispTrans;
-  reg [3:0] BCD;
-
-  countCompare
-  #(
-    .NBITS(NBITS_COMPARE)
-  ) COUNTCOMPARE
-  (
-    .clk (clk),
-    .rst (rst),
-    .compareValue (COMPARE),
-    .equal (equal2ms)
-  );
-
-  always @ (posedge clk or negedge rst) begin
-    if (!rst) begin
-      selDispTrans = 2'b00;
-    end
-    else begin
-      if (equal2ms) begin
-        selDispTrans = selDispTrans + 1'b1;
-      end
-    end
-  end
  
   morse_encoder(
     wDataRX,
